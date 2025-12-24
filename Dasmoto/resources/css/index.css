@@ -1,0 +1,81 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px 20px 0 20px;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+header {
+  width: 100%;
+  height: 110px;
+  position: relative;
+  padding-bottom: 3
+  0px;
+}
+
+header h1 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.pattern {
+  height: 110px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.brushes {
+  background-color: mediumspringgreen;
+}
+
+.frames {
+  background-color: lightcoral;
+}
+
+.paint {
+  background-color: skyblue;
+}
+
+main {
+  padding: 50px 0 40px 0;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
