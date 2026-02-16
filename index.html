@@ -1,23 +1,166 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Gianassi – Web Projects & Portfolio</title>
+    <meta name="description" content="Personal website of Roberto Gianassi: web development projects, experiments, and future blog.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-lang="en">
+    <header class="site-header">
+        <div class="container">
+            <div class="branding">
+                <h1>Roberto Gianassi</h1>
+                <p class="subtitle lang-en">Web development · Experiments, projects, and ideas</p>
+                <p class="subtitle lang-it" lang="it">Sviluppo web · Esperimenti, progetti e idee</p>
+            </div>
 
-<html>
+            <div class="header-right">
+                <nav aria-label="Main navigation" class="lang-en">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Web projects</a></li>
+                        <li><a href="#future">What’s next</a></li>
+                    </ul>
+                </nav>
 
-<body>
+                <nav aria-label="Navigazione principale" class="lang-it" lang="it">
+                    <ul class="nav-links">
+                        <li><a href="#about">Chi sono</a></li>
+                        <li><a href="#projects">Progetti web</a></li>
+                        <li><a href="#future">Cosa verrà dopo</a></li>
+                    </ul>
+                </nav>
 
-    <h1>Roberto Gianassi</h1>
+                <div class="language-switcher" aria-label="Language selector">
+                    <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+                    <button type="button" data-set-lang="it" aria-pressed="false">IT</button>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <p>Welcome to my website!</p>
+    <main>
+        <section id="hero" class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h2 id="hero-title" class="lang-en">Welcome to my corner of the web</h2>
+                <h2 id="hero-title-it" class="lang-it" lang="it">Benvenuto nel mio angolo di web</h2>
 
-    <p>Web Project List:</p>
+                <p class="lang-en">
+                    This is where I experiment with modern front‑end development and collect the projects I’m building
+                    as I grow my skills.
+                </p>
+                <p class="lang-it" lang="it">
+                    Qui sperimento con lo sviluppo front‑end moderno e raccolgo i progetti che realizzo mentre faccio
+                    crescere le mie competenze.
+                </p>
+            </div>
+        </section>
 
-    <ul>
+        <section id="about" class="section" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="lang-en">About me</h2>
+                <h2 id="about-title-it" class="lang-it" lang="it">Chi sono</h2>
 
-        <li><a href="Dasmoto/index.html">Dasmoto's Arts &amp; Crafts</a></li>
+                <p class="lang-en">
+                    I’m Roberto, a web enthusiast who enjoys learning by building. This site is my personal playground,
+                    and over time I plan to turn it into a proper online home with more content and ideas.
+                </p>
+                <p class="lang-it" lang="it">
+                    Sono Roberto, un appassionato di web che ama imparare costruendo. Questo sito è il mio spazio di
+                    sperimentazione e con il tempo vorrei trasformarlo nella mia casa digitale, con più contenuti e idee.
+                </p>
+            </div>
+        </section>
 
-        <li><a href="TeaCozy/index.html">Tea Cozy</a></li>
+        <section id="projects" class="section" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="lang-en">Selected web projects</h2>
+                <h2 id="projects-title-it" class="lang-it" lang="it">Progetti web selezionati</h2>
 
-    </ul>
+                <ul class="project-list">
+                    <li>
+                        <article class="project-card">
+                            <h3 class="project-title">
+                                <a href="Dasmoto/index.html">Dasmoto's Arts &amp; Crafts</a>
+                            </h3>
+                            <p class="project-description lang-en">
+                                A simple landing page for a creative arts &amp; crafts shop, focused on typography,
+                                color and basic layout structure.
+                            </p>
+                            <p class="project-description lang-it" lang="it">
+                                Una landing page per un negozio creativo di arti e mestieri, pensata per esercitarmi
+                                con tipografia, colore e struttura di base del layout.
+                            </p>
+                        </article>
+                    </li>
 
+                    <li>
+                        <article class="project-card">
+                            <h3 class="project-title">
+                                <a href="TeaCozy/index.html">Tea Cozy</a>
+                            </h3>
+                            <p class="project-description lang-en">
+                                A one‑page site for a fictional tea house, with emphasis on sections, imagery and a
+                                responsive layout.
+                            </p>
+                            <p class="project-description lang-it" lang="it">
+                                Un sito one‑page per una tea house immaginaria, con enfasi sulle sezioni, sulle immagini
+                                e su un layout responsivo.
+                            </p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="future" class="section" aria-labelledby="future-title">
+            <div class="container">
+                <h2 id="future-title" class="lang-en">Future plans</h2>
+                <h2 id="future-title-it" class="lang-it" lang="it">Piani per il futuro</h2>
+
+                <p class="lang-en">
+                    This page will evolve into my main presence on the web. I’m planning to expand it with more projects
+                    and possibly a small blog where I can share what I learn about front‑end development.
+                </p>
+                <p class="lang-it" lang="it">
+                    Questa pagina diventerà la mia presenza principale sul web. Ho in programma di ampliarla con altri
+                    progetti e forse con un piccolo blog in cui raccontare ciò che imparo sullo sviluppo front‑end.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small class="lang-en">&copy; 2026 Roberto Gianassi. All rights reserved.</small>
+            <small class="lang-it" lang="it">&copy; 2026 Roberto Gianassi. Tutti i diritti riservati.</small>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            const root = document.body;
+            const buttons = document.querySelectorAll(".language-switcher button");
+
+            function setLanguage(lang) {
+                root.setAttribute("data-lang", lang);
+                buttons.forEach((btn) => {
+                    const isActive = btn.getAttribute("data-set-lang") === lang;
+                    btn.setAttribute("aria-pressed", String(isActive));
+                });
+            }
+
+            buttons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    const lang = btn.getAttribute("data-set-lang");
+                    if (lang) {
+                        setLanguage(lang);
+                    }
+                });
+            });
+        })();
+    </script>
 </body>
-
 </html>
